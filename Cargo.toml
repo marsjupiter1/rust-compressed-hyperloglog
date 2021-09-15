@@ -1,0 +1,12 @@
+[package]
+name = "chyperloglog"
+version = "0.1.0"
+authors = ["Martin Walker"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+#bitwize = { git = "https://github.com/marsjupiter1/rust-bitwize", version = "0.1.0" }
+bitwize = { path = "../rust-bitwize" }
